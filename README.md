@@ -10,8 +10,8 @@ https://smart-brain-jc.herokuapp.com/
 
 The front-end portion built with React
 
-The back-end portion can be found on: 
-https://github.com/contrerasjorge/smart-brain-api)
-
 The face recognition is done through the Clarifai API
 Styling is done with Tachyons
+
+The back-end portion can be found on: 
+https://github.com/contrerasjorge/smart-brain-api)
