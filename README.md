@@ -1,4 +1,4 @@
-## smart-brain
+# smart-brain
 
 The front-end of a website that allows you to register or login and then it will
 detect any faces of an image that you enter into it.
@@ -6,7 +6,7 @@ detect any faces of an image that you enter into it.
 You can check it out on:
 https://smart-brain-jc.herokuapp.com/
 
-# Technologies used:
+## technologies used:
 
 The front-end portion built with React
 
