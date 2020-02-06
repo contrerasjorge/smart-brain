@@ -1,6 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 
-import { BoundingBox } from './face-recognition.styles';
+const BoundingBox = styled.div`
+  position: absolute;
+  box-shadow: inset 0 0 0 3px #149df2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+`;
 
 const FaceRecognition = ({ imageUrl, boxes }) => {
   return (
