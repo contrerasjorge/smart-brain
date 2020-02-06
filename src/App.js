@@ -4,7 +4,7 @@ import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
 import Logo from './components/logo/logo';
 import ImageLinkForm from './components/imagelinkform/imagelinkform';
-import FaceRecognition from './components/facerecognition/facerecognition';
+import FaceRecognition from './components/face-recognition/face-recognition';
 import Rank from './components/rank/rank';
 import Particles from 'react-particles-js';
 import './App.css';
@@ -119,8 +119,8 @@ class App extends Component {
   render() {
     const { isSignedIn, imageUrl, route, boxes } = this.state;
     return (
-      <div className="App">
-        <Particles className="particles" params={particlesOptions} />
+      <div className='App'>
+        <Particles className='particles' params={particlesOptions} />
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
