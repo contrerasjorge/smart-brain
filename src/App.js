@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from './components/navigation/navigation';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
@@ -36,7 +36,7 @@ const initialState = {
   }
 };
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = initialState;
@@ -113,7 +113,7 @@ class App extends Component {
     } else if (route === 'home') {
       this.setState({ isSignedIn: true });
     }
-    this.setState({ route: route });
+    this.setState({ route });
   };
 
   render() {
